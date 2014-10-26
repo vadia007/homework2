@@ -11,6 +11,6 @@ echo "<br>Количество колес: " . $car1->getCountWheels();
 
 echo "<br><br>";
 
-$car1 = new Honda('CBR 600');
-echo "Модель Honda: " . $car1->getModel();
-echo "<br>Количество колес: " . $car1->getCountWheels();
+$motorcycle1 = new Honda('CBR 600');
+echo "Модель Honda: " . $motorcycle1->getModel();
+echo "<br>Количество колес: " . $motorcycle1->getCountWheels();
